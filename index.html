@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Movie Data</title>
+</head>
+<body>
+    <div class="outerContainer">
+        <div class="formContainer">
+           <form action="#">
+            <div class="movieInfoContainer">
+            <label for="title">Movie Title:</label><br>
+            <input class="textInput" type="text" id="title" name="title"><br>
+            <label for="released">Released:</label><br>
+            <input class="textInput" type="text" id="released" name="released"><br>
+            <label for="released">Cast:</label><br>
+            <input class="textInput" type="text" class="cast" name="cast"><br>
+            <input class="textInput" type="text" class="cast" name="cast"><br>
+            <input class="textInput" type="text" class="cast" name="cast"><br>
+        </div>
+        <div class="stats">
+            <label for="rating">Ratings:</label><br>
+            <input class="textInput" type="text" id="rating" name="rating"><br>
+            <label for="duration">Duration:</label><br>
+            <input class="textInput" type="text" id="duration" name="duration"><br>
+            <label for="plot">Plot:</label><br>
+            <textarea class="textInput"  style="resize: none;" name="plot" id="plot" cols="30" rows="10"></textarea>
+            <input class ="submitBtn" type="submit" onclick="createRecord()"/>
+        </div>
+           </form>
+        </div>
+        <div class="movieContainer">        
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
